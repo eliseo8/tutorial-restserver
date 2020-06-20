@@ -21,7 +21,7 @@ let urlDB;
 
 // } else {
 
-urlDB = 'mongodb+srv://pooling:@dm!n1234.@cluster0-e2ai0.mongodb.net/cafe'
+urlDB = process.env.MONGO_URL //'mongodb+srv://pooling:@dm!n1234.@cluster0-e2ai0.mongodb.net/cafe'
 
 // }
 
